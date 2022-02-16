@@ -21,5 +21,6 @@ program.parse(process.argv);
 watcher({
   installCommand: program.installCommand,
   hashFilename: program.hashFilename,
+  lockFilename: program.lockFilename,
   isHashOnly: program.hashOnly,
 });
