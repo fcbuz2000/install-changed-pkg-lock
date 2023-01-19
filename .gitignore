@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+.idea
+
+# A hash of the installed dependencies in package-lock.json
+packagehash.txt
+

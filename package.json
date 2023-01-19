@@ -1,6 +1,6 @@
 {
   "name": "install-pkg-lock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Only npm install if package-lock.json has been modified",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
     "lint": "eslint ."
   },
   "bin": {
-    "install-changed": "./bin/install-changed.js"
+    "install-changed-pkg-lock": "./bin/install-changed.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FPG-Alan/install-changed/"
+    "url": "https://github.com/fcbuz2000/install-changed-pkg-lock"
   },
-  "author": "FPG-Alan(http://github.com/FPG-Alan)",
+  "author": "fcbuz2000(https://github.com/fcbuz2000)",
   "license": "ISC",
   "keywords": [
     "npm",
@@ -25,7 +25,8 @@
     "modified",
     "changed",
     "changes",
-    "package"
+    "package",
+    "package-lock change"
   ],
   "devDependencies": {
     "eslint": "^6.0.1",
